@@ -1,0 +1,1 @@
+cmd_/home/heng/os2/module1/mydemo.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/heng/os2/module1/mydemo.ko /home/heng/os2/module1/mydemo.o /home/heng/os2/module1/mydemo.mod.o;  true
